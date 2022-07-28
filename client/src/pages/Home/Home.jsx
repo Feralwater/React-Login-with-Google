@@ -1,5 +1,5 @@
-import {posts} from "client/src/data";
-import Card from "client/src/components/Card/Card";
+import {posts} from "../../data";
+import Card from "../../components/Card/Card";
 
 
 const Home = () => {

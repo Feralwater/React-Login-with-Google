@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "client/src/components/Navbar/Navbar";
-import Home from "client/src/pages/Home/Home";
-import Login from "client/src/pages/Login/Login";
-import Post from "client/src/pages/Post/Post";
-import "client/src/App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
+import Post from "./pages/Post/Post";
+import "./App.css";
 
 const App = () => {
     const [user, setUser] = useState(null);
